@@ -12,7 +12,7 @@ namespace Modul2HW4
                 throw new ArgumentException("Некорректное значение параметра");
             }
 
-            return (int)x.Weight - (int)y.Weight;
+            return (int)(x.Weight * 100) - (int)(y.Weight * 100);
         }
     }
 }
